@@ -1,0 +1,253 @@
+@import url(compra.css);
+@import url(sobremas.css);
+@import url(mas.css);
+@import url(tienda.css);
+@import url(carrito.css);
+/*cuerpo*/
+body{
+  background-color: #faebd7;
+  margin: 0;
+  padding: 0;
+}
+.carousel{
+  background-size: cover;
+}
+.sticky-header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030; 
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+h1{
+  text-align: center;
+}
+/* comida tarjetas */
+.card {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.btn-arrow {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-arrow:hover {
+  background-color: #f7f7f7;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .card {
+     margin: 10px auto; 
+     float: none; 
+     text-align: center; 
+    
+   }
+  .btn-arrow {
+     position: relative; 
+     top: auto; 
+     right: auto; 
+     left: 50%; 
+     transform: translateX(-50%); 
+   }
+ }
+ 
+/*tarjeta sobre nosotros */
+.about-card {
+    background-color: #000000;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    width: 800px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.about-card-body {
+    padding: 20px;
+}
+  
+.about-card-body h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+  
+.about-card-body p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.about-card {
+
+    margin: 40px auto; 
+}
+/* Tarjeta sobre nosotros */
+.about-card {
+  
+  max-width: 800px; 
+  margin: 40px auto; 
+  padding: 30px; 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
+}
+
+
+@media (max-width: 1200px) {
+  .about-card {
+    max-width: 600px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-card {
+    max-width: 300px; 
+  }
+}
+
+
+/* Tarjeta de contacto */
+.contact-card {
+  max-width: 400px; 
+  margin: 40px auto; 
+  padding: 30px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  background-color: #fff; 
+  border-radius: 10px; 
+}
+
+/* Estilos para tarjeta */
+.contact-card ul {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.contact-card li {
+  margin-bottom: 20px; 
+}
+
+.contact-card i {
+  font-size: 24px; 
+  margin-right: 10px; 
+}
+
+.contact-card span {
+  font-size: 18px; 
+}
+
+
+.contact-card form {
+  margin-top: 30px; 
+}
+
+.contact-card input, .contact-card textarea {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+.contact-card button {
+  background-color: #4CAF50; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+
+@media (max-width: 768px) {
+  .contact-card {
+    max-width: 300px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-card {
+    max-width: 200px; 
+  }
+}
+
+/*pie de pagina */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  text-align: center;
+  color: #666;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+display: inline-block;
+margin-right: 20px;
+}
+
+.footer a {
+color: #666;
+text-decoration: none;
+}
+
+.footer a:hover {
+color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

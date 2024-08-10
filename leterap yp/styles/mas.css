@@ -1,0 +1,40 @@
+.container-resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.image-container {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.ingredients {
+  max-width: 600px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.ingredients h2 {
+  text-align: center;
+  color: #333;
+}
+.ingredients ul {
+  list-style: none;
+  padding: 0;
+}
+.ingredients ul li {
+  margin: 8px 0;
+}
+@media (max-width: 600px) {
+  .ingredients {
+      padding: 10px;
+  }
+}

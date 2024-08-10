@@ -1,0 +1,71 @@
+
+.container-pago {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contenedor del resumen del pedido */
+.order-summary {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  /* Detalles del pedido */
+.order-summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.order-summary li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+.order-summary li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Contenedor del pago total */
+.payment-total {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Botón de pago */
+.payment-total button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #337ab7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.payment-total button:hover {
+    background-color: #23527c;
+  }
+  
+@media (max-width: 768px) {
+    .container {
+      margin: 20px auto;
+    }
+    .order-summary {
+      padding: 15px;
+    }
+    .payment-total {
+      padding: 15px;
+    }
+  }
+  
+  

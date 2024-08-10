@@ -93,5 +93,5 @@ El proyecto utiliza las siguientes tecnologías y herramientas:
 1. **Clonar el repositorio del proyecto:**
 
    ```bash
-   git clone <url-del-repositorio>
+   git clone 
    cd letterapp

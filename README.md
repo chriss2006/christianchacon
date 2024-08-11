@@ -14,38 +14,7 @@
 
 ## 📑 Índice 📑
 1. [📄 Introducción 📄](#📄-introducción-📄)
-2. [🎯 Objetivo 🎯](#🎯-objetivo-🎯)
-   1. [Objetivo General](#objetivo-general)
-   2. [Objetivos Específicos](#objetivos-específicos)
-3. [🚀 Proyecto 🚀](#🚀-proyecto-🚀)
-   1. [Funcionalidades Principales](#funcionalidades-principales)
-   2. [Público Objetivo](#público-objetivo)
-   3. [Tecnologías Utilizadas](#tecnologías-utilizadas)
-4. [🛠️ Instalación y Configuración 🛠️](#🛠️-instalación-y-configuración-🛠️)
-   1. [Requisitos Previos](#requisitos-previos)
-   2. [Instalación](#instalación)
-      1. [Desarrollo](#desarrollo)
-      2. [Producción](#producción)
-5. [📂 Estructura del Proyecto 📂](#📂-estructura-del-proyecto-📂)
-   1. [Descripción de la Estructura de Directorios](#descripción-de-la-estructura-de-directorios)
-   2. [Descripción de Componentes Clave](#descripción-de-componentes-clave)
-6. [🌐 Uso de la API 🌐](#🌐-uso-de-la-api-🌐)
-   1. [Configuración de Endpoints](#configuración-de-endpoints)
-   2. [Ejemplos de Consumo de API](#ejemplos-de-consumo-de-api)
-7. [🚀 Despliegue 🚀](#🚀-despliegue-🚀)
-   1. [Preparación para el Despliegue](#preparación-para-el-despliegue)
-   2. [Despliegue en Servidores](#despliegue-en-servidores)
-      1. [Configuración de Docker](#configuración-de-docker)
-      2. [Despliegue en Jenkins](#despliegue-en-jenkins)
-      3. [Despliegue en Azure DevOps](#despliegue-en-azure-devops)
-8. [🔧 Mantenimiento 🔧](#🔧-mantenimiento-🔧)
-   1. [Actualización de Dependencias](#actualización-de-dependencias)
-   2. [Monitoreo y Logging](#monitoreo-y-logging)
-9. [✔️ Buenas Prácticas ✔️](#✔️-buenas-prácticas-✔️)
-   1. [Estilo de Código](#estilo-de-código)
-   2. [Control de Versiones](#control-de-versiones)
-10. [❓ Preguntas Frecuentes ❓](#❓-preguntas-frecuentes-❓)
-11. [📞 Contacto 📞](#📞-contacto-📞)
+
 
 ## 📄 Introducción 📄
 
@@ -93,5 +62,5 @@ El proyecto utiliza las siguientes tecnologías y herramientas:
 1. **Clonar el repositorio del proyecto:**
 
    ```bash
-   git clone 
-   cd letterapp
+   git clone : https://chriss2006.github.io/christianchacon.github.io/leterap%20yp/
+  
